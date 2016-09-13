@@ -57,8 +57,8 @@ else if (this.keyDown.isDown){
 if(this.boardR.y < 0) {
    this.boardR.y = 1;
   }
-else if(this.boardR.y > 360){
-  this.boardR.y = 359;
+else if(this.boardR.y > 359){
+  this.boardR.y = 358;
 }
 
 if(this.ball.y < 7) {
@@ -85,8 +85,8 @@ else if (this.downs.isDown){
 if(this.boardL.y < 0) {
    this.boardL.y = 1;
   }
-else if(this.boardL.y >360){
-  this.boardL.y = 359;
+else if(this.boardL.y >359){
+  this.boardL.y = 358;
 }
 
 
