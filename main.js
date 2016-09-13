@@ -78,7 +78,7 @@ else if (this.downs.isDown){
     this.boardL.body.velocity.y = 150;
     }
     else {
-  this.boardR.body.velocity.y = 0;
+  this.boardL.body.velocity.y = 0;
   }
 
 
