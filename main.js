@@ -77,6 +77,9 @@ if(this.upw.isDown){
 else if (this.downs.isDown){
     this.boardL.body.velocity.y = 150;
     }
+    else {
+  this.boardR.body.velocity.y = 0;
+  }
 
 
 if(this.boardL.y < 0) {
@@ -86,13 +89,6 @@ else if(this.boardL.y >360){
   this.boardL.y = 359;
 }
 
-if(this.ball.y < 7) {
-  this.ball.body.velocity.y = 200;
-}
-
-else if (this.ball.y > 493) {
-  this.ball.body.velocity.y = -200;
-}
 
 // COLLISION DETECTION
 game.physics.arcade.overlap(
